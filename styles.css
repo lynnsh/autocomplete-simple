@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	height: 100%;
+    background-image: url("background.jpg");
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center;    
+    padding: 5px;
+    color: white;
+}
+
+.header, .header-login, .header-reg {
+    text-align: center;
+}
+
+.header-login {
+    color: #b30059;
+}
+
+.header-reg {
+    color: #999900;
+}
+
+.header, #choice {
+    color: #fc7c05;
+}
+
+form, #list {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;    
+    text-align: center;
+    padding: 10px;
+}
+
+.city{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.links {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    text-align: center;
+    color: white;
+}
+
+label {
+    padding-bottom: 20px;
+}
+
+#list {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#container {
+    width: 40%;
+    background-color: black;
+    opacity: 0.9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-red {
+    color: white;
+    background-color: #5C0000;
+    font-size: 1.2em;
+}
+
+.btn-red.focus, .btn-red:focus, .btn-red:hover {
+    color: white;
+    background-color: #990000;
+}
+
+.txt-red {
+    color: #5C0000;
+    font-weight: bold;
+}
+
+.error {
+    color: #ff3333;
+    text-align: center;
+    background-color: black;
+    opacity: 0.9;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.btn-back-login, .btn-back-login a {
+    color: white;
+    background-color: #5b002d;
+    text-decoration: none;
+}
+
+.btn-back-login.focus, .btn-back-login:focus, .btn-back-login:hover,
+.btn-back-login.focus a, .btn-back-login:focus a, .btn-back-login:hover a {
+    color: white;
+    background-color: #800040;
+    text-decoration: none;
+}
+
+.btn-back-reg, .btn-back-reg a {
+    color: white;
+    background-color: #5b5b00;
+    text-decoration: none;
+}
+
+.btn-back-reg.focus, .btn-back-reg:focus, .btn-back-reg:hover,
+.btn-back-reg.focus a, .btn-back-reg:focus a, .btn-back-reg:hover a {
+    color: white;
+    background-color: #808000;
+    text-decoration: none;
+}
+
+
+.btn-a {
+    color: white;
+    background-color: black;
+    text-decoration: none; 
+    font-size: 1.1em;
+    border: #262626 1px solid;
+}
+
+.btn-a.focus, .btn-a:focus, .btn-a:hover {
+    color: white;
+    background-color: #0d0d0d;
+    text-decoration: none;
+    border: black 1px solid;
+}
+
+.txt-input-login {
+    color: #5b002d;
+}
+
+.txt-input-reg {
+    color: #5b5b00;
+}
+
+
